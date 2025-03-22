@@ -1,2 +1,3 @@
-# PandA-HPD
-A compact, low cost high-reliability ultra high speed printer 
+# PandA-RPD
+The PortableAndAutomated Rapid-Protyping-Device
+A compact solution to rapid prototyping on-the-go
