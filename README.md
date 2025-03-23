@@ -21,3 +21,5 @@ The PandA-RPD is a completely open-source, low cost printer with an emphasis on 
 - 150X150mm build volume allows for Ample build volumes.
 - Custom Carbon Fiber Y-Axis allows for acceleration values never seen on a bedsligner.
 
+# Bill of Materials:
+https://docs.google.com/spreadsheets/d/1V79EK8Z-FFW_dK_e8KKpWufplBCfT9gk4kxhHtjUPYw/edit?usp=sharing
