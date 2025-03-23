@@ -9,4 +9,4 @@ Features:
 - BigTreeTech Eddy Duo sensor for lightning-fast bed leveling
 - BigTreeTech SKR MINI E3 V3 for silent, yet high performance operation.
 - Driven by 3 42-48 Stepper motors, granting unprecedented torque and velocity in all directions.
-- Optimized toolhead design, granting increased print speeds 
+- Dual 5020 blowers with optimized ducts allow for unprecedented cooling.
