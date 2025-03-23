@@ -10,3 +10,5 @@ Features:
 - BigTreeTech SKR MINI E3 V3 for silent, yet high performance operation.
 - Driven by 3 42-48 Stepper motors, granting unprecedented torque and velocity in all directions.
 - Dual 5020 blowers with optimized ducts allow for unprecedented cooling.
+- 150X150mm build volume allows for Ample build volumes.
+- Custom Carbon Fiber Y-Axis allows for acceleration values never seen on a bedsligner.
