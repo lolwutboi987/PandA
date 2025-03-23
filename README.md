@@ -20,6 +20,7 @@ The PandA-RPD is a completely open-source, low cost printer with an emphasis on 
 - Dual 5020 blowers with optimized ducts allow for unprecedented cooling.
 - 150X150mm build volume allows for Ample build volumes.
 - Custom Carbon Fiber Y-Axis allows for acceleration values never seen on a bedsligner.
+- Integrated custom resonance damping feet allow for printing on any surface and reduces translated shaking & vibrations.
 
 # Bill of Materials:
 https://docs.google.com/spreadsheets/d/1V79EK8Z-FFW_dK_e8KKpWufplBCfT9gk4kxhHtjUPYw/edit?usp=sharing
