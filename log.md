@@ -2,16 +2,8 @@
  The Portable and Automated Rapid Protyping Device
  
  Made by @lolwutboi987
- Total Hours: 15
- 
- 
- ### Log
- 
- | Date  | Task                     | Time      | Notes                                                                           |
- | ----- | ------------------------ | --------- | ------------------------------------------------------------------------------- |
- | 3/18  |The beginning             | 10min     |Created fusion document, decided on a portable high speed design|
- |3/19   |Cad the frame; figure out electronics| 3 Hours   | Decided on BTT EDDY and SKR mini e3v3 (i hate slow bed meshes)|  
- |3/20   |Cad ZX axis and Y axis|4 Hours| who would have imagined being the 3rd person in the world to use corexz cantilever would have been hard...|
- |3/21 |Toolhead time!|4 hours|the duct goes quack; why are 5020s so big|
- |3/22|Polish Cad, make git repo and bom|4 hours| they told me cad in 3 days was impossible; screwcounting time|
- 
+ Total Hours on CAD: 15
+ Total Hours on BOM: 2
+ Total hours on Git Repo: 2
+ # 3/16/25, Day 0: The brainstorm
+ It was a boring sunday afternoon. I had nothing to do, and was chatting with my group after the absolute chaos that was scrapyard silicon valley. I was chatting on discord about how it was funny that we brought a 3d printer to the hackathon, untill my friend mentions the infill channel. I browse through the channel, excited for another engineering related thing to do during the vex offseason. One problem: Where do I begin? With Scrapyard SV still on my mind, I think of my ender 3 that we brought and the numerous problems that arised when it came to taking a conventional 3d pritner with you on the go. I decided, Why not make a 3d printer designed for hackathons? (Or any protyping intensive 
