@@ -62,7 +62,46 @@ Since this is meant to be a high performance, yet high convenience build, I thin
 
 ![image](https://github.com/user-attachments/assets/24c67c25-0fe0-42ea-9250-2ed9e34c41e4)
 
-This cute little bugger! Its relatively cheap, and pretty much used as a direct replacement to every single ender 3 motherboard the lord hath created. With the sweet sweet taste of TMC 2209 Steppers, features like spreadcycle, stealthchop, and sensorless homing not only makes the life and performance of the motors exponentially better, but mine too, as I no longer have to worry about dealing with endstops. One down, a million left to go...
+This cute little bugger! Its relatively cheap, and pretty much used as a direct replacement to every single ender 3 motherboard the lord hath created. With the sweet sweet taste of TMC 2209 Drivers, features like spreadcycle, stealthchop, and sensorless homing not only makes the life and performance of the motors exponentially better, but mine too, as I no longer have to worry about dealing with endstops. One down, a million left to go...
+
+### AC🌩️DC
+One big aspect of printers is to remember that 50% of the job is heating the filament and the bed, Since i want to mimize downtime, I need to find a way to heat the bed fast. One problem is, That a high wattage DC bed needs a big power supply, and a big power supply consumes a lot of space and therefore, would increase the footprint of the printer. One little revolution in 3d printing, is the uptick of 110VAC beds. Since the wall outlet it technically a power supply with a wattage of 1800, if I can pull direct AC power I can increase compactness and performance, while keeping cost relatively the same. Amazing! 
+
+Only one problem though. I cant run the bed 100% full blast the entire time, or we would have a big, firey, smoky problem. Most printers use PWM to control a bed, however no printer motherboard can PWM 120VAC, unless you plan to use the board as a heater. Also, no clicky relay can cycle at 10HZ. the trick? Use something called a Solid-state-relay (SSR):
+
+![image](https://github.com/user-attachments/assets/47897cf6-0072-4d41-a135-76c1a6325fb2)
+
+Its essentialy a giant, fat mosfet that just so happens to be able to handle 120VAC without dying. Yipee.
+
+That means, My DC power supply shouldn't need to be absolutely oversized. I have decided a basic 200 Watt LED driver PSU should be adequate, silent, and nice and compact since the LED driver can sustain it's peak wattage for it's entire lifetime. 
+
+![image](https://github.com/user-attachments/assets/c65f7d24-198f-494b-bcaa-380c1f8d4ca9)
 
 
+### Enclosure
+
+The enclosure is relatively simple, but has a couple constraints:
+
+
+ - It has to have good ventilation
+ - It has to actually fit whatever electonic components I want to put in them.
+ - It has to be printable, and it cannot interfere with the operation of any of the printer's other components
+ - It has to look good!
+
+The enclosure I built includes a 70x15 axial fan which first, blows directly at the motherboard, And blows through the enclosure and blows at the SSR and power supply, then out the back vent:
+
+![Screenshot 2025-03-25 12 46 32 PM](https://github.com/user-attachments/assets/1d9f91b8-d268-4051-8b8b-719d6c40665a)
+
+Looks cool too
+
+### Toohead
+
+The toolhead may be considered as the centrepiece of the printer. It is the only part of the printer that technically prints. 
+![Screenshot 2025-03-25 12 50 38 PM](https://github.com/user-attachments/assets/f9678a03-fcaa-40c0-a336-d40bc6c45cf6)
+2 ducts, 2 quacks
+
+#### Cooling
+You may have noticed how 80% of the toolhead is literally cooling ducts and blowers. What I have learned from printing PLA at high speeds, is that you need an INSANE amount of cooling. The toolhead incorporates 2 5020 Blowers and high flow ducts. Cooling is 100% integral when it comes to bridging, overhangs, and reducing elephant's foot. There also may or may not be plans to print even faster than it already does in the near future. 
+#### Extruder
+The red thing on top is an HGX lite extruder. It has relatively good torque and is very light, but most importantly, They are CHEAP. I run one on my ender 3 and it works GREAT. With one LDO orbiter, you could buy 5 of these.
 
