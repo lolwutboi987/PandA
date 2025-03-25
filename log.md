@@ -98,10 +98,22 @@ Looks cool too
 
 The toolhead may be considered as the centrepiece of the printer. It is the only part of the printer that technically prints. 
 ![Screenshot 2025-03-25 12 50 38 PM](https://github.com/user-attachments/assets/f9678a03-fcaa-40c0-a336-d40bc6c45cf6)
+
 2 ducts, 2 quacks
 
 #### Cooling
-You may have noticed how 80% of the toolhead is literally cooling ducts and blowers. What I have learned from printing PLA at high speeds, is that you need an INSANE amount of cooling. The toolhead incorporates 2 5020 Blowers and high flow ducts. Cooling is 100% integral when it comes to bridging, overhangs, and reducing elephant's foot. There also may or may not be plans to print even faster than it already does in the near future. 
-#### Extruder
-The red thing on top is an HGX lite extruder. It has relatively good torque and is very light, but most importantly, They are CHEAP. I run one on my ender 3 and it works GREAT. With one LDO orbiter, you could buy 5 of these.
+You may have noticed how 80% of the toolhead is literally cooling ducts and blowers. What I have learned from printing PLA at high speeds, is that you need an INSANE amount of cooling. The toolhead incorporates 2 5020 Blowers and high flow ducts. Cooling is 100% integral when it comes to bridging, overhangs, and reducing elephant's foot. There also may or may not be plans to print even faster than it already does in the near future 😉.
+![image](https://github.com/user-attachments/assets/3d53ac0f-7994-4b37-bc47-2ca11dbc47c8)
 
+This multiplied by two and I should be able to cool whatever the heck I want.
+
+
+#### Extruder
+The red thing on top is an HGX lite extruder. It has relatively good torque and is very light, but most importantly, They are CHEAP. I run one on my ender 3 and it works GREAT. With one LDO orbiter, you could buy 5 of these. The all-aluminum frame is also advantageous to reducing just how much the little nema-14 stepper will overheat under higher current running for more torque.
+
+![image](https://github.com/user-attachments/assets/4484f2cc-6e5a-479e-bb5c-942f893c06ed)
+
+At a dime a dozen, I still wonder why this isn't the number one extruder for budget high-performance printing.
+
+#### Hotend
+Another thing to notice is the rather elongated looking hotend. While not as abnormaly long as the supervolcano on my ender 3, it is much lighter and yields similar if not better flowrates that a Phaetus, or a revo, at a fraction of the cost. This plus a CHT nozzle and a conversion might be the secret to mind-bogglingly high flowrates, without draining my budget.
