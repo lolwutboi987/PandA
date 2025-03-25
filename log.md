@@ -30,10 +30,14 @@ I have also been able to complete the Y axis.
 ![image](https://github.com/user-attachments/assets/c8978fe5-faf1-4eff-a5c0-21da630e701a)
 
 The Y axis incorporates a beefy 42-48 Stepper for maximum torque and velocity. The Bed frame and the Hotbed itself are both carbon fiber. Carbon fiber's Strength-to-weight ratio, stiffness, and relative price point makes it optimal for this situation. 
+
 The Y axis slides upon a nice and extremely thick MGN15H carriage as it's undoubtedly the heaviest moving part on the printer. This size of rail means that wear and friction will be reduced. 
 
 ![image](https://github.com/user-attachments/assets/7baa51e6-7288-45c7-b4a5-43c3a1b1fd3f)
 
 The beltpath is drawn in an indigo-blue.
 You might be wondering, why would someone do such a beltpath? This is once again, to optimize form factor and simplicity. 
+
 One might also wonder, Why the object circled in red exists. it's there to once again, guide the belt through the 4020 Extrusion without the need for a larger drive pulley which would otherwise, sacrifice torque and performance. 
+
+
