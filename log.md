@@ -12,7 +12,7 @@
  - Minized downtime to allow maximum throughput of prototyped parts.
  - Maximum convenience means reducing hassle with the printer, and increasing time for working/printing.
  - Portability means that said printer can be taken anywhere conveniently.
-## Notes
+## Concluding Notes
 And so the day ends. With a general idea of what my plans are for this project, I've got 13 days to make it work so i will begin to CAD tommorrow. 
 
 # 3/19/25, Day 1: Cadding Framework
@@ -39,7 +39,7 @@ The beltpath is drawn in an indigo-blue.
 You might be wondering, why would someone do such a beltpath? This is once again, to optimize form factor and simplicity. 
 
 One might also wonder, Why the object circled in red exists. it's there to once again, guide the belt through the 4020 Extrusion without the need for a larger drive pulley which would otherwise, sacrifice torque and performance. 
-## Notes
+## Concluding Notes
 With the frame and Y-Axis done, I'm calling it a day and I'll pick up tomorrow. Ill likely take care of the XZ axis by tomorrow and start toolhead design too.
 # 3/20/25, Day 2:X's O's and Z's
 ## The kinematics
@@ -49,11 +49,11 @@ As of 2025, I can't find any examples of a coreXZ cantilever printer in the wild
 I've not only adjusted the colors of the parts to match their respecive materials, but following the above example in the image, It's highly similar to the kinematics of a corexy cantilever, just rotated 90. I still with it were that easy, as corexy and corexz systems function extremely differently and bracing can become complicated. 
 
 I have decided the Z axis due to the extremely high and unbalanced load, needs to also be a nice, beefy mgn15H. The cantililever, I have decided while needs to be rigid, also needs to be light and compact, so I have decided to choose an MGN12H and back it with a 2010 extrusion. One thing I have absolutely learned designing printers is that you DO NOT CHEAP OUT ON RAILS. 
-## Notes
+## Concluding Notes
 For any of the printers i've had the pleasure of designing, beltpaths is probably the hardest thing to figure out, and i've spent several hours chipping away at this and I think this is done, for now I guess. Luckily, tommorrow is friday, which means I can come home straight from school and get straight to work, as long as I please. All that's left is toolhead, and cramming the electronics wherever. And also designing some more gimmicks. I also really need to fix the organization of the f360 file. 
 # 3/21/25, Day 3: Finishing Strong
 ## Electronics
-Everyone's Favorite (and most expensive :sob:) part, Electronics! 
+Everyone's Favorite (and most expensive 😭 ) part, Electronics! 
 
 Seeing as my budget should ballpack 300 dollars, however I already have extrusions from another 3d printer I can sacrifice to the benchy gods, Along with F695 bearings, I think I have some pretty sweet "Splurgability" at hand. I feel like a kid in a candy store. 
 
@@ -75,10 +75,12 @@ Its essentialy a giant, fat mosfet that just so happens to be able to handle 120
 
 That means, My DC power supply shouldn't need to be absolutely oversized. I have decided a basic 200 Watt LED driver PSU should be adequate, silent, and nice and compact since the LED driver can sustain it's peak wattage for it's entire lifetime. 
 
-![image](https://github.com/user-attachments/assets/c65f7d24-198f-494b-bcaa-380c1f8d4ca9)
+![image](https://github.com/user-attachments/assets/e3ec62d5-1a3e-4a1c-b2ee-ea81de4afcce)
 
 
-### Enclosure
+
+
+## Enclosure
 
 The enclosure is relatively simple, but has a couple constraints:
 
@@ -94,26 +96,44 @@ The enclosure I built includes a 70x15 axial fan which first, blows directly at 
 
 Looks cool too
 
-### Toohead
+## Toohead
 
 The toolhead may be considered as the centrepiece of the printer. It is the only part of the printer that technically prints. 
+
 ![Screenshot 2025-03-25 12 50 38 PM](https://github.com/user-attachments/assets/f9678a03-fcaa-40c0-a336-d40bc6c45cf6)
 
 2 ducts, 2 quacks
 
-#### Cooling
+### Cooling
 You may have noticed how 80% of the toolhead is literally cooling ducts and blowers. What I have learned from printing PLA at high speeds, is that you need an INSANE amount of cooling. The toolhead incorporates 2 5020 Blowers and high flow ducts. Cooling is 100% integral when it comes to bridging, overhangs, and reducing elephant's foot. There also may or may not be plans to print even faster than it already does in the near future 😉.
+
 ![image](https://github.com/user-attachments/assets/3d53ac0f-7994-4b37-bc47-2ca11dbc47c8)
 
 This multiplied by two and I should be able to cool whatever the heck I want.
 
 
-#### Extruder
+### Extruder
 The red thing on top is an HGX lite extruder. It has relatively good torque and is very light, but most importantly, They are CHEAP. I run one on my ender 3 and it works GREAT. With one LDO orbiter, you could buy 5 of these. The all-aluminum frame is also advantageous to reducing just how much the little nema-14 stepper will overheat under higher current running for more torque.
 
 ![image](https://github.com/user-attachments/assets/4484f2cc-6e5a-479e-bb5c-942f893c06ed)
 
 At a dime a dozen, I still wonder why this isn't the number one extruder for budget high-performance printing.
 
-#### Hotend
+### Hotend
 Another thing to notice is the rather elongated looking hotend. While not as abnormaly long as the supervolcano on my ender 3, it is much lighter and yields similar if not better flowrates that a Phaetus, or a revo, at a fraction of the cost. This plus a CHT nozzle and a conversion might be the secret to mind-bogglingly high flowrates, without draining my budget.
+
+![image](https://github.com/user-attachments/assets/163773ba-34d1-45f7-a1b3-b7acdd184bb3)
+
+## Integrated Dampeners
+Nowadays, pretty much any consumer available 3d printer is considered to be a "Desktop 3d Printer". Sure, they all fit on a table, or a desk, but all have one problem. Vibration. When the printer is actually printing at speeds beyond a snail's pace, They shake the table and often emit vibrations that use the giant table's surface as a resonating speaker to generate huge amounts of noise. Most printers try their best to counteract this with basic rubber cylinder shaped feet, but this often isnt enough, and makes the printer unstable. Since this printer is designed to print anywhere, It musn't be allowed to succumb to the effects of not having a 100000% perfect printing surface. 
+
+![Screenshot 2025-03-25 2 47 49 PM](https://github.com/user-attachments/assets/1eb0bcc4-5827-42e2-8b10-c1fca462a38e)
+
+On the outside, This looks like a conventional plastic block, with some rubber at the botton, but these are much more advanced than that. 
+
+![Screenshot 2025-03-25 2 49 16 PM](https://github.com/user-attachments/assets/a2476012-04e6-4a32-8aae-b08e6841b170)
+
+You might recognize the design! These take after the HULA vibration damping feet, however those are much more generalized and are designed to be a roughly one size fits all feet. These follow a similar design, but are revamped to do much, much more. They have much more travel space, and have reduced friction and are designed for the lighter, yet higher-frequency nature of the PandA. 
+
+## Concluding Notes
+And that concludes the CAD portion of PandA, for now... All that's left is to purchase parts and assemble the thing. I imagine things wont be perfect the first time round, so I'll find myself back here pretty soon....
