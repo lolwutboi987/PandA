@@ -13,7 +13,7 @@ The PandA-RPD is a completely open-source, low cost printer with an emphasis on 
 
 ## Features:
 - All-Original CoreXZ kinematics for maximum print speed and acceleration, while tackling common z-axis artifacts caused by leadscrews and ballscrews.
-- 300-Watt Ultralight AC Heated Bed for minimal downtime between print protyping.
+- 700-Watt Ultralight AC Heated Bed for minimal downtime between print protyping.
 - BigTreeTech Eddy Duo sensor for lightning-fast bed leveling
 - BigTreeTech SKR MINI E3 V3 for silent, yet high performance operation.
 - Driven by 3 42-48 Stepper motors, granting unprecedented torque and velocity in all directions.
