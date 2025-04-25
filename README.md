@@ -1,5 +1,5 @@
-# PandA-RPD
-The PortableAndAutomated Rapid-Protyping-Device
+# PandA
+The PortableAndAutomated printer
 ## Goals
 - Make it portable
 - Make it very fast
