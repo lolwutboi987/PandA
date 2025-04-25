@@ -1,5 +1,5 @@
-# PandA RPD 
- The Portable and Automated Rapid Protyping Device
+# PandA
+ The Portable and Automated Printer
  
  Made by @lolwutboi987
  Total Hours on CAD: 15
