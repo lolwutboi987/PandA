@@ -7,7 +7,7 @@ The PortableAndAutomated printer
 - Make it cheap
 - Make it make good prints
 - Make it happen
-## What the Heck is a PandA-RPD?
+## What the Heck is a PandA?
 The PandA-RPD is a completely open-source, low cost printer with an emphasis on it's portability and ability to print parts in record time. This printer is designed for quick printing on the go, with every aspect of the printer optimized for maximum speed and minimal downtime.  Great for hackathons or making on the go!
 ![Untitled_2025-Mar-23_01-53-38AM-000_CustomizedView22018073743](https://github.com/user-attachments/assets/702e0df6-3828-41a6-ace2-b3a03b36b2d9)
 
